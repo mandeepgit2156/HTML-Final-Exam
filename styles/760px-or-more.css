@@ -1,0 +1,26 @@
+@media screen and (max-width: 760px) {
+     
+    #main-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main {
+        width: fit-content;
+    }
+
+    aside {
+        width: fit-content;
+        padding-right: 1.5em;
+        font-size: 0.9em;
+    }
+
+    main {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    header {
+        padding-top: 2em;
+    }
+}
